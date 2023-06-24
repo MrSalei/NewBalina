@@ -13,6 +13,18 @@
 		4091B4482A4710B8003379A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4091B4462A4710B8003379A7 /* Main.storyboard */; };
 		4091B44A2A4710B9003379A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4091B4492A4710B9003379A7 /* Assets.xcassets */; };
 		4091B44D2A4710B9003379A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4091B44B2A4710B9003379A7 /* LaunchScreen.storyboard */; };
+		4091B4582A47113E003379A7 /* ViewControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4091B4572A47113E003379A7 /* ViewControllerView.swift */; };
+		4091B45A2A471249003379A7 /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4091B4592A471249003379A7 /* ContentCell.swift */; };
+		4091B45D2A47165B003379A7 /* ViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4091B45C2A47165B003379A7 /* ViewControllerViewModel.swift */; };
+		4091B4602A47185A003379A7 /* StoredModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4091B45F2A47185A003379A7 /* StoredModel.swift */; };
+		4091B4632A471C68003379A7 /* ViewControllerComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4091B4622A471C68003379A7 /* ViewControllerComposer.swift */; };
+		4091B4652A471ECD003379A7 /* CollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4091B4642A471ECD003379A7 /* CollectionItem.swift */; };
+		4091B46A2A47229F003379A7 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4091B4692A47229F003379A7 /* Remote.swift */; };
+		4091B46C2A4722AF003379A7 /* BalinaRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4091B46B2A4722AF003379A7 /* BalinaRemote.swift */; };
+		4091B46E2A47242E003379A7 /* BalinaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4091B46D2A47242E003379A7 /* BalinaRepository.swift */; };
+		4091B4702A4734B6003379A7 /* StoredContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4091B46F2A4734B6003379A7 /* StoredContent.swift */; };
+		4091B4732A4736F6003379A7 /* Multipart in Frameworks */ = {isa = PBXBuildFile; productRef = 4091B4722A4736F6003379A7 /* Multipart */; };
+		4091B47C2A473F0C003379A7 /* UploadResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4091B47B2A473F0C003379A7 /* UploadResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,17 @@
 		4091B4492A4710B9003379A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4091B44C2A4710B9003379A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4091B44E2A4710B9003379A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4091B4572A47113E003379A7 /* ViewControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerView.swift; sourceTree = "<group>"; };
+		4091B4592A471249003379A7 /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		4091B45C2A47165B003379A7 /* ViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerViewModel.swift; sourceTree = "<group>"; };
+		4091B45F2A47185A003379A7 /* StoredModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredModel.swift; sourceTree = "<group>"; };
+		4091B4622A471C68003379A7 /* ViewControllerComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerComposer.swift; sourceTree = "<group>"; };
+		4091B4642A471ECD003379A7 /* CollectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionItem.swift; sourceTree = "<group>"; };
+		4091B4692A47229F003379A7 /* Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
+		4091B46B2A4722AF003379A7 /* BalinaRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalinaRemote.swift; sourceTree = "<group>"; };
+		4091B46D2A47242E003379A7 /* BalinaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalinaRepository.swift; sourceTree = "<group>"; };
+		4091B46F2A4734B6003379A7 /* StoredContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredContent.swift; sourceTree = "<group>"; };
+		4091B47B2A473F0C003379A7 /* UploadResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4091B4732A4736F6003379A7 /* Multipart in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +80,98 @@
 		4091B43F2A4710B8003379A7 /* NewBalina */ = {
 			isa = PBXGroup;
 			children = (
+				4091B4662A472277003379A7 /* Core */,
+				4091B4542A47111A003379A7 /* MainScreen */,
 				4091B4402A4710B8003379A7 /* AppDelegate.swift */,
 				4091B4422A4710B8003379A7 /* SceneDelegate.swift */,
-				4091B4442A4710B8003379A7 /* ViewController.swift */,
 				4091B4462A4710B8003379A7 /* Main.storyboard */,
 				4091B4492A4710B9003379A7 /* Assets.xcassets */,
 				4091B44B2A4710B9003379A7 /* LaunchScreen.storyboard */,
 				4091B44E2A4710B9003379A7 /* Info.plist */,
 			);
 			path = NewBalina;
+			sourceTree = "<group>";
+		};
+		4091B4542A47111A003379A7 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4091B45E2A471850003379A7 /* Model */,
+				4091B4612A471C51003379A7 /* Composition */,
+				4091B45B2A471644003379A7 /* Presentation */,
+				4091B4562A47112F003379A7 /* Views */,
+				4091B4552A471122003379A7 /* Controllers */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		4091B4552A471122003379A7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4091B4442A4710B8003379A7 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4091B4562A47112F003379A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4091B4572A47113E003379A7 /* ViewControllerView.swift */,
+				4091B4592A471249003379A7 /* ContentCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4091B45B2A471644003379A7 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				4091B45C2A47165B003379A7 /* ViewControllerViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		4091B45E2A471850003379A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4091B45F2A47185A003379A7 /* StoredModel.swift */,
+				4091B4642A471ECD003379A7 /* CollectionItem.swift */,
+				4091B46F2A4734B6003379A7 /* StoredContent.swift */,
+				4091B47B2A473F0C003379A7 /* UploadResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4091B4612A471C51003379A7 /* Composition */ = {
+			isa = PBXGroup;
+			children = (
+				4091B4622A471C68003379A7 /* ViewControllerComposer.swift */,
+			);
+			path = Composition;
+			sourceTree = "<group>";
+		};
+		4091B4662A472277003379A7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4091B4682A472284003379A7 /* Repositories */,
+				4091B4672A47227E003379A7 /* Remote */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4091B4672A47227E003379A7 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				4091B4692A47229F003379A7 /* Remote.swift */,
+				4091B46B2A4722AF003379A7 /* BalinaRemote.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		4091B4682A472284003379A7 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				4091B46D2A47242E003379A7 /* BalinaRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +190,9 @@
 			dependencies = (
 			);
 			name = NewBalina;
+			packageProductDependencies = (
+				4091B4722A4736F6003379A7 /* Multipart */,
+			);
 			productName = NewBalina;
 			productReference = 4091B43D2A4710B8003379A7 /* NewBalina.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +221,9 @@
 				Base,
 			);
 			mainGroup = 4091B4342A4710B8003379A7;
+			packageReferences = (
+				4091B4712A4736F6003379A7 /* XCRemoteSwiftPackageReference "Multipart" */,
+			);
 			productRefGroup = 4091B43E2A4710B8003379A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +251,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4091B46E2A47242E003379A7 /* BalinaRepository.swift in Sources */,
+				4091B4602A47185A003379A7 /* StoredModel.swift in Sources */,
+				4091B46A2A47229F003379A7 /* Remote.swift in Sources */,
+				4091B4702A4734B6003379A7 /* StoredContent.swift in Sources */,
 				4091B4452A4710B8003379A7 /* ViewController.swift in Sources */,
+				4091B45D2A47165B003379A7 /* ViewControllerViewModel.swift in Sources */,
+				4091B46C2A4722AF003379A7 /* BalinaRemote.swift in Sources */,
+				4091B4582A47113E003379A7 /* ViewControllerView.swift in Sources */,
+				4091B45A2A471249003379A7 /* ContentCell.swift in Sources */,
+				4091B47C2A473F0C003379A7 /* UploadResponse.swift in Sources */,
 				4091B4412A4710B8003379A7 /* AppDelegate.swift in Sources */,
+				4091B4632A471C68003379A7 /* ViewControllerComposer.swift in Sources */,
 				4091B4432A4710B8003379A7 /* SceneDelegate.swift in Sources */,
+				4091B4652A471ECD003379A7 /* CollectionItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +411,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y97YKW5885;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NewBalina/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to camera to upload taken photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,11 +439,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y97YKW5885;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NewBalina/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to camera to upload taken photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -356,6 +482,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4091B4712A4736F6003379A7 /* XCRemoteSwiftPackageReference "Multipart" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Fyrts/Multipart.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4091B4722A4736F6003379A7 /* Multipart */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4091B4712A4736F6003379A7 /* XCRemoteSwiftPackageReference "Multipart" */;
+			productName = Multipart;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4091B4352A4710B8003379A7 /* Project object */;
 }
