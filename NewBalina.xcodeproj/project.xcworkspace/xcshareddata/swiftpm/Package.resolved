@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "multipart",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Fyrts/Multipart.git",
+      "state" : {
+        "revision" : "422122f034f227a94580a4f39a276de8ed648137",
+        "version" : "0.1.2"
+      }
+    }
+  ],
+  "version" : 2
+}

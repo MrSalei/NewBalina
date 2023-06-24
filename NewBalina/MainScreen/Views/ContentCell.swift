@@ -11,6 +11,7 @@ final class ContentCell: UICollectionViewCell {
     
     private let nameLabel: UILabel = {
         let nameLabel = UILabel()
+        nameLabel.textColor = .white
         nameLabel.textAlignment = .center
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
         return nameLabel
@@ -28,6 +29,7 @@ final class ContentCell: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: .zero)
+        backgroundColor = .black
         layoutElements()
     }
     
@@ -63,9 +65,9 @@ final class ContentCell: UICollectionViewCell {
 //MARK: - Helpers
 extension ContentCell {
 
-    func setupCell(urlString: String, name: String) {
+    func setupCell(urlString: String?, name: String?) {
         nameLabel.text = name
-        guard let url = URL(string: urlString) else { return }
+        guard let urlString, let url = URL(string: urlString) else { return }
         downloadImage(from: url)
     }
     

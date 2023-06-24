@@ -98,7 +98,7 @@ extension ViewController: UICollectionViewDelegateFlowLayout, UICollectionViewDa
             if granted {
                 DispatchQueue.main.async { [weak self] in
                     guard let imagePicker = self?.imagePicker else { return }
-                    self?.present(imagePicker, animated: false, completion: nil)
+                    self?.present(imagePicker, animated: true, completion: nil)
                 }
             } else {
                 DispatchQueue.main.async { [weak self] in

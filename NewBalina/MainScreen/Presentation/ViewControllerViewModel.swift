@@ -23,7 +23,7 @@ final class ViewControllerViewModel {
             DispatchQueue.main.async { [weak self] in
                 switch result {
                 case .success(let storedModel):
-                    let collectionItems = storedModel.content.compactMap {
+                    let collectionItems = storedModel.content.map {
                         CollectionItem(urlString: $0.image, name: $0.name)
                     }
                     self?.itemsReceiver.send(collectionItems)
