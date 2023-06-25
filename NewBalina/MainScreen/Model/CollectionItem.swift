@@ -8,6 +8,7 @@
 import Foundation
 
 struct CollectionItem {
+    let id: Int
     let urlString: String?
     let name: String?
 }

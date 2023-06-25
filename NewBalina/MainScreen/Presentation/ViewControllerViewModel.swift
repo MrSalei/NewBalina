@@ -24,7 +24,7 @@ final class ViewControllerViewModel {
                 switch result {
                 case .success(let storedModel):
                     let collectionItems = storedModel.content.map {
-                        CollectionItem(urlString: $0.image, name: $0.name)
+                        CollectionItem(id: $0.id, urlString: $0.image, name: $0.name)
                     }
                     self?.itemsReceiver.send(collectionItems)
                 case .failure(let error):
